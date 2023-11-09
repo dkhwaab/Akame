@@ -1,0 +1,11 @@
+{
+ "name": "App",
+ "icons": [
+  {
+   "src": "/icons8-scissors-glyph-96.png",
+   "sizes": "96×96",
+   "type": "image/png",
+   "density": "2.0"
+  }
+ ]
+}

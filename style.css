@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+
+
+
+/* For Header */
+
+.head1, .head{
+    display: inline-block;
+}
+
+header{
+    background-color: rgb(33, 18, 18);
+    height: 3.5em;
+}
+.head{
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    color: white;
+}
+.head1{
+    margin-left: 30em ;
+}
+.head2{
+    margin-left: 17em;
+}
+.clock{
+    transform: translateY(2px);
+}
+.call{
+    transform: translateY(2px);
+    margin-left: 10px;
+}
+.timing{
+    margin-right: 10px;
+}
+
+
+/* For Nav bar */
+
+.navelement , .navigate , .akame , .bookbutton{
+    display: inline-block;
+}
+.akame{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    margin-left: 10em;
+}
+.navigate{
+    font-size: 20px;
+    margin-left: 4em;
+}
+.navelement{
+    margin: 10px;
+}
+a{
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.cart{
+    transform: translateY(5px);
+    height: 18px;
+}
+.book{
+    margin-left: 12px;
+}
+button{
+    transition-duration: 1s;
+    font-size: 15px;
+    font-family: "Playfair Display", serif;
+    border-radius: 30px;
+    height: 45px;
+    width: 160px;
+    border: 1px solid ; 
+}
+.bookbutton{
+    margin-left: 7em;
+}
+button:hover{
+    border: 0;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(201, 179, 35);
+}
+
+/* For Main Bar */
+
+main{
+    margin-top: 50px;
+    background-image: url(icons/16.jpg);
+    box-sizing: content-box;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: scale(1.2);
+}
+.maincontainer{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    text-align: justify;
+    padding-top: 150px;
+    margin-left: 292px;
+}
+.ptext{
+    color: rgb(110, 94, 73);
+    margin-left: 292px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+.about:hover{
+    border: 0;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(201, 179, 35);
+}
+.about{ transition-duration: 1s;
+    font-size: 13px;
+    font-family: "Playfair Display", serif;
+    border-radius: 30px;
+    height: 45px;
+    width: 148px;
+    border: 1px solid ; 
+    background-color: rgb(255, 255, 255);
+    margin-left: 292px;
+}
+
+
+/* For Section bar */
+
+section{
+    padding-top: 100px;
+}
+.croc{
+    height: 400px;
+}
+.house , .saloonhouse{
+    display: inline-block;
+}
+.hair{
+    font-size: 37px;
+    font-family: "Playfair Display", serif;
+}
+.thehouse{
+    color: rgb(110, 94, 73);
+    font-family: "Open Sans", sans-serif;
+}
+.hairsaloon{
+    transform: translateY(-100px);
+    margin-left: 200px;
+}
+.croc{
+    border: 0;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.beauty{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.ptext2{
+    color: rgb(110, 94, 73);
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+.beautiful{
+    margin-left: 40px;
+    transform: translateY(-90px);
+}
+.read{
+    background-color: rgb(201, 179, 35);
+    color: white;
+}
+.read:hover{
+    background-color: black;
+}
+hr{
+    margin-top: 60px;
+}
+/* For Speciality Bar */
+
+.ourservices{
+    margin-top: 70px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.services{
+    font-family: "Playfair Display", serif;
+}
+.coloring , .hairstyle , .haircut{
+    font-family: "Playfair Display", serif;
+}
+.colortext , .styletext , .hairtext{
+    font-family: "Open Sans", sans-serif;
+    color: rgb(110, 94, 73);
+}
+.image1 , .image2 , .image3 , .image4{
+    border: 0.2px solid rgb(110, 94, 73);
+    padding: 25px;
+    padding-top: 60px;
+}
+.images{
+    text-align: center;
+}
+.images, .image1 , .image2 , .image3 , .image4{
+    display: inline-block;
+}
+.image1{
+    margin-left: 200px;
+}
+.image2 , .image3 , .image4{
+    margin-left: 38px;
+}
+.image1:hover,.image2:hover,.image3:hover,.image4:hover {
+    transform: scale(1.01);
+    box-shadow: 5px 5px 5px 5px rgb(154, 145, 145);
+}
+.hairs,.style,.color{
+    height: 100px;
+    width: 100px;
+}
